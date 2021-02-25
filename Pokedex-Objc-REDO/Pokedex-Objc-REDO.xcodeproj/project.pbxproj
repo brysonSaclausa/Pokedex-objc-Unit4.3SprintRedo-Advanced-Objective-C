@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CDCAD0925E86EB100F55422 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDCAD0825E86EB100F55422 /* AppDelegate.m */; };
+		7CDCAD0C25E86EB100F55422 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDCAD0B25E86EB100F55422 /* SceneDelegate.m */; };
+		7CDCAD0F25E86EB100F55422 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDCAD0E25E86EB100F55422 /* ViewController.m */; };
+		7CDCAD1225E86EB100F55422 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CDCAD1025E86EB100F55422 /* Main.storyboard */; };
+		7CDCAD1425E86EB200F55422 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CDCAD1325E86EB200F55422 /* Assets.xcassets */; };
+		7CDCAD1725E86EB200F55422 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CDCAD1525E86EB200F55422 /* LaunchScreen.storyboard */; };
+		7CDCAD1A25E86EB200F55422 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDCAD1925E86EB200F55422 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7CDCAD0425E86EB100F55422 /* Pokedex-Objc-REDO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pokedex-Objc-REDO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CDCAD0725E86EB100F55422 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7CDCAD0825E86EB100F55422 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7CDCAD0A25E86EB100F55422 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		7CDCAD0B25E86EB100F55422 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		7CDCAD0D25E86EB100F55422 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7CDCAD0E25E86EB100F55422 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7CDCAD1125E86EB100F55422 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CDCAD1325E86EB200F55422 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CDCAD1625E86EB200F55422 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CDCAD1825E86EB200F55422 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CDCAD1925E86EB200F55422 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CDCAD0125E86EB100F55422 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CDCACFB25E86EB100F55422 = {
+			isa = PBXGroup;
+			children = (
+				7CDCAD0625E86EB100F55422 /* Pokedex-Objc-REDO */,
+				7CDCAD0525E86EB100F55422 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CDCAD0525E86EB100F55422 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CDCAD0425E86EB100F55422 /* Pokedex-Objc-REDO.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CDCAD0625E86EB100F55422 /* Pokedex-Objc-REDO */ = {
+			isa = PBXGroup;
+			children = (
+				7CDCAD0725E86EB100F55422 /* AppDelegate.h */,
+				7CDCAD0825E86EB100F55422 /* AppDelegate.m */,
+				7CDCAD0A25E86EB100F55422 /* SceneDelegate.h */,
+				7CDCAD0B25E86EB100F55422 /* SceneDelegate.m */,
+				7CDCAD0D25E86EB100F55422 /* ViewController.h */,
+				7CDCAD0E25E86EB100F55422 /* ViewController.m */,
+				7CDCAD1025E86EB100F55422 /* Main.storyboard */,
+				7CDCAD1325E86EB200F55422 /* Assets.xcassets */,
+				7CDCAD1525E86EB200F55422 /* LaunchScreen.storyboard */,
+				7CDCAD1825E86EB200F55422 /* Info.plist */,
+				7CDCAD1925E86EB200F55422 /* main.m */,
+			);
+			path = "Pokedex-Objc-REDO";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CDCAD0325E86EB100F55422 /* Pokedex-Objc-REDO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CDCAD1D25E86EB200F55422 /* Build configuration list for PBXNativeTarget "Pokedex-Objc-REDO" */;
+			buildPhases = (
+				7CDCAD0025E86EB100F55422 /* Sources */,
+				7CDCAD0125E86EB100F55422 /* Frameworks */,
+				7CDCAD0225E86EB100F55422 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pokedex-Objc-REDO";
+			productName = "Pokedex-Objc-REDO";
+			productReference = 7CDCAD0425E86EB100F55422 /* Pokedex-Objc-REDO.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CDCACFC25E86EB100F55422 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					7CDCAD0325E86EB100F55422 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 7CDCACFF25E86EB100F55422 /* Build configuration list for PBXProject "Pokedex-Objc-REDO" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CDCACFB25E86EB100F55422;
+			productRefGroup = 7CDCAD0525E86EB100F55422 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CDCAD0325E86EB100F55422 /* Pokedex-Objc-REDO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CDCAD0225E86EB100F55422 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CDCAD1725E86EB200F55422 /* LaunchScreen.storyboard in Resources */,
+				7CDCAD1425E86EB200F55422 /* Assets.xcassets in Resources */,
+				7CDCAD1225E86EB100F55422 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CDCAD0025E86EB100F55422 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CDCAD0F25E86EB100F55422 /* ViewController.m in Sources */,
+				7CDCAD0925E86EB100F55422 /* AppDelegate.m in Sources */,
+				7CDCAD1A25E86EB200F55422 /* main.m in Sources */,
+				7CDCAD0C25E86EB100F55422 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7CDCAD1025E86EB100F55422 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CDCAD1125E86EB100F55422 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CDCAD1525E86EB200F55422 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CDCAD1625E86EB200F55422 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CDCAD1B25E86EB200F55422 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7CDCAD1C25E86EB200F55422 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CDCAD1E25E86EB200F55422 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2S8MH4C36K;
+				INFOPLIST_FILE = "Pokedex-Objc-REDO/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "B.Pokedex-Objc-REDO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CDCAD1F25E86EB200F55422 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2S8MH4C36K;
+				INFOPLIST_FILE = "Pokedex-Objc-REDO/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "B.Pokedex-Objc-REDO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CDCACFF25E86EB100F55422 /* Build configuration list for PBXProject "Pokedex-Objc-REDO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CDCAD1B25E86EB200F55422 /* Debug */,
+				7CDCAD1C25E86EB200F55422 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CDCAD1D25E86EB200F55422 /* Build configuration list for PBXNativeTarget "Pokedex-Objc-REDO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CDCAD1E25E86EB200F55422 /* Debug */,
+				7CDCAD1F25E86EB200F55422 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CDCACFC25E86EB100F55422 /* Project object */;
+}
