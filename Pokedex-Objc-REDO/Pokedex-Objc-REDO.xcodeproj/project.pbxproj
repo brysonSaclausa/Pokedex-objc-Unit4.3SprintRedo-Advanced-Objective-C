@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		7CDCAD0925E86EB100F55422 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDCAD0825E86EB100F55422 /* AppDelegate.m */; };
 		7CDCAD0C25E86EB100F55422 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDCAD0B25E86EB100F55422 /* SceneDelegate.m */; };
-		7CDCAD0F25E86EB100F55422 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDCAD0E25E86EB100F55422 /* ViewController.m */; };
 		7CDCAD1225E86EB100F55422 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CDCAD1025E86EB100F55422 /* Main.storyboard */; };
 		7CDCAD1425E86EB200F55422 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CDCAD1325E86EB200F55422 /* Assets.xcassets */; };
 		7CDCAD1725E86EB200F55422 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CDCAD1525E86EB200F55422 /* LaunchScreen.storyboard */; };
@@ -22,8 +21,6 @@
 		7CDCAD0825E86EB100F55422 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7CDCAD0A25E86EB100F55422 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		7CDCAD0B25E86EB100F55422 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		7CDCAD0D25E86EB100F55422 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7CDCAD0E25E86EB100F55422 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7CDCAD1125E86EB100F55422 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7CDCAD1325E86EB200F55422 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CDCAD1625E86EB200F55422 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -65,8 +62,6 @@
 				7CDCAD0825E86EB100F55422 /* AppDelegate.m */,
 				7CDCAD0A25E86EB100F55422 /* SceneDelegate.h */,
 				7CDCAD0B25E86EB100F55422 /* SceneDelegate.m */,
-				7CDCAD0D25E86EB100F55422 /* ViewController.h */,
-				7CDCAD0E25E86EB100F55422 /* ViewController.m */,
 				7CDCAD1025E86EB100F55422 /* Main.storyboard */,
 				7CDCAD1325E86EB200F55422 /* Assets.xcassets */,
 				7CDCAD1525E86EB200F55422 /* LaunchScreen.storyboard */,
@@ -145,7 +140,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CDCAD0F25E86EB100F55422 /* ViewController.m in Sources */,
 				7CDCAD0925E86EB100F55422 /* AppDelegate.m in Sources */,
 				7CDCAD1A25E86EB200F55422 /* main.m in Sources */,
 				7CDCAD0C25E86EB100F55422 /* SceneDelegate.m in Sources */,
