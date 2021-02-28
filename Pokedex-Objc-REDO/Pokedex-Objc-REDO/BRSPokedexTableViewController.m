@@ -6,8 +6,17 @@
 //
 
 #import "BRSPokedexTableViewController.h"
+#import "BRSPokemon.h"
+
+#import "Pokedex_Objc_REDO-Swift.h"
+
+
+
 
 @interface BRSPokedexTableViewController ()
+
+@property (nonatomic, nonnull) NSArray<BRSPokemon *> *pokemon;
+
 
 @end
 
@@ -16,34 +25,39 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    [BRSPokemonController.shared fetchAllPokemonWithCompletion:^(NSArray<BRSPokemon *> * _Nullable pokemon, NSError * _Nullable error) {
+        if (error) {
+            NSLog(@"%@", error);
+        }
+        
+        if (pokemon){
+            dispatch_async(dispatch_get_main_queue(), ^{
+                self.pokemon = pokemon;
+                [self.tableView reloadData];
+            });
+        }
+    }];//
 }
 
 #pragma mark - Table view data source
 
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Incomplete implementation, return the number of sections
-    return 0;
+
+
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return self.pokemon.count;
 }
 
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete implementation, return the number of rows
-    return 0;
-}
 
-/*
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"pokemonCell" forIndexPath:indexPath];
     
-    // Configure the cell...
+    BRSPokemon *pokemon = self.pokemon[indexPath.row];
+    
+    cell.textLabel.text = pokemon.name;
     
     return cell;
 }
-*/
+
 
 /*
 // Override to support conditional editing of the table view.

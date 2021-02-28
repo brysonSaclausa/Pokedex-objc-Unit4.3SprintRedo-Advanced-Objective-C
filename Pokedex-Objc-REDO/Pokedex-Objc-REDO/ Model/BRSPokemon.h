@@ -18,7 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (instancetype)initWithName:(NSString *)aName;
 
-- (instancetype)initWithDictionary:(NSDictionary *)otherDictionary;
+- (nullable instancetype)initWithDictionary:(NSDictionary *)otherDictionary;
 
 
 @end
