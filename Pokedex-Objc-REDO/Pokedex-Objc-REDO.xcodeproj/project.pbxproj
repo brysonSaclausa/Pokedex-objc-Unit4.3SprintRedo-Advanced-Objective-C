@@ -67,6 +67,7 @@
 			children = (
 				7C17837525EB717500C5760D /* BRSPokemon.h */,
 				7C17837625EB717500C5760D /* BRSPokemon.m */,
+				7C17837A25EB880700C5760D /* ViewControllers */,
 			);
 			path = " Model";
 			sourceTree = "<group>";
@@ -79,6 +80,7 @@
 				7C17838125EB886400C5760D /* BRSPokemonDetailViewController.swift */,
 			);
 			name = ViewControllers;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		7C17838825EB8A6400C5760D /* ModelController */ = {
@@ -108,9 +110,8 @@
 		7CDCAD0625E86EB100F55422 /* Pokedex-Objc-REDO */ = {
 			isa = PBXGroup;
 			children = (
-				7C17838825EB8A6400C5760D /* ModelController */,
-				7C17837A25EB880700C5760D /* ViewControllers */,
 				7C17837425EB715B00C5760D /*  Model */,
+				7C17838825EB8A6400C5760D /* ModelController */,
 				7C17837325EB713700C5760D /* Resources */,
 				7CDCAD1025E86EB100F55422 /* Main.storyboard */,
 				7CDCAD1325E86EB200F55422 /* Assets.xcassets */,

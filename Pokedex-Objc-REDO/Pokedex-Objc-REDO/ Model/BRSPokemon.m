@@ -17,4 +17,11 @@
     return self;
 }
 
+- (instancetype)initWithDictionary:(NSDictionary *)dictionary
+{
+    NSString *name = [[dictionary objectForKey:@"name"] capitalizedString];
+    if (![name isKindOfClass:NSString.class]) return nil;
+    return [self initWithName:name];
+}
+
 @end
