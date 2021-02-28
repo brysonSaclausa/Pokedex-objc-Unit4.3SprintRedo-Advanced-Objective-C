@@ -8,7 +8,15 @@
 import UIKit
 
 class BRSPokemonDetailViewController: UIViewController {
-
+    
+    
+    //MARK: - IBOUTLETS
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet var idLabel: UIView!
+    @IBOutlet weak var abilityLabel: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

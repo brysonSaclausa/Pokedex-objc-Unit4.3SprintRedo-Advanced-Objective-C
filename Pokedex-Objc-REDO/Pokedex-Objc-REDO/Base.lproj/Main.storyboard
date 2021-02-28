@@ -11,7 +11,7 @@
         <!--Pokedex-->
         <scene sceneID="XIP-QW-g9F">
             <objects>
-                <tableViewController id="9PU-6q-CR8" sceneMemberID="viewController">
+                <tableViewController id="9PU-6q-CR8" customClass="BRSPokedexTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="IOq-yf-s0e">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -49,10 +49,10 @@
             </objects>
             <point key="canvasLocation" x="1228.985507246377" y="87.723214285714278"/>
         </scene>
-        <!--View Controller-->
+        <!--Pokemon Detail View Controller-->
         <scene sceneID="H5P-3R-d6J">
             <objects>
-                <viewController id="V18-Jx-9dC" sceneMemberID="viewController">
+                <viewController id="V18-Jx-9dC" customClass="BRSPokemonDetailViewController" customModule="Pokedex_Objc_REDO" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2IL-Px-lHd">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -93,6 +93,12 @@
                             <constraint firstItem="N2T-fL-oKp" firstAttribute="top" secondItem="PzP-17-2EU" secondAttribute="top" constant="51" id="kRi-qr-6zF"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="abilityLabel" destination="AwA-qV-fSs" id="KDi-SH-3gw"/>
+                        <outlet property="idLabel" destination="2IL-Px-lHd" id="fuf-LB-N6w"/>
+                        <outlet property="imageView" destination="pbK-j8-uIC" id="NRJ-2W-s5M"/>
+                        <outlet property="nameLabel" destination="atc-Ka-k48" id="Doa-ee-uto"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ppc-87-D8E" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
