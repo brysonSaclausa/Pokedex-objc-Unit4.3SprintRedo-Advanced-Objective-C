@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C17837725EB717500C5760D /* BRSPokemon.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C17837625EB717500C5760D /* BRSPokemon.m */; };
 		7CDCAD0925E86EB100F55422 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDCAD0825E86EB100F55422 /* AppDelegate.m */; };
 		7CDCAD0C25E86EB100F55422 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDCAD0B25E86EB100F55422 /* SceneDelegate.m */; };
 		7CDCAD1225E86EB100F55422 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CDCAD1025E86EB100F55422 /* Main.storyboard */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C17837525EB717500C5760D /* BRSPokemon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRSPokemon.h; sourceTree = "<group>"; };
+		7C17837625EB717500C5760D /* BRSPokemon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRSPokemon.m; sourceTree = "<group>"; };
 		7CDCAD0425E86EB100F55422 /* Pokedex-Objc-REDO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pokedex-Objc-REDO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CDCAD0725E86EB100F55422 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7CDCAD0825E86EB100F55422 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -39,6 +42,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C17837325EB713700C5760D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7CDCAD0725E86EB100F55422 /* AppDelegate.h */,
+				7CDCAD0825E86EB100F55422 /* AppDelegate.m */,
+				7CDCAD0A25E86EB100F55422 /* SceneDelegate.h */,
+				7CDCAD0B25E86EB100F55422 /* SceneDelegate.m */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7C17837425EB715B00C5760D /*  Model */ = {
+			isa = PBXGroup;
+			children = (
+				7C17837525EB717500C5760D /* BRSPokemon.h */,
+				7C17837625EB717500C5760D /* BRSPokemon.m */,
+			);
+			path = " Model";
+			sourceTree = "<group>";
+		};
 		7CDCACFB25E86EB100F55422 = {
 			isa = PBXGroup;
 			children = (
@@ -58,10 +81,8 @@
 		7CDCAD0625E86EB100F55422 /* Pokedex-Objc-REDO */ = {
 			isa = PBXGroup;
 			children = (
-				7CDCAD0725E86EB100F55422 /* AppDelegate.h */,
-				7CDCAD0825E86EB100F55422 /* AppDelegate.m */,
-				7CDCAD0A25E86EB100F55422 /* SceneDelegate.h */,
-				7CDCAD0B25E86EB100F55422 /* SceneDelegate.m */,
+				7C17837425EB715B00C5760D /*  Model */,
+				7C17837325EB713700C5760D /* Resources */,
 				7CDCAD1025E86EB100F55422 /* Main.storyboard */,
 				7CDCAD1325E86EB200F55422 /* Assets.xcassets */,
 				7CDCAD1525E86EB200F55422 /* LaunchScreen.storyboard */,
@@ -143,6 +164,7 @@
 				7CDCAD0925E86EB100F55422 /* AppDelegate.m in Sources */,
 				7CDCAD1A25E86EB200F55422 /* main.m in Sources */,
 				7CDCAD0C25E86EB100F55422 /* SceneDelegate.m in Sources */,
+				7C17837725EB717500C5760D /* BRSPokemon.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
