@@ -60,7 +60,7 @@ class BRSPokemonController: NSObject {
         }.resume()
     }
     
-    func getPokemonDetails(for pokemon: BRSPokemon) {
+    @objc func getPokemonDetails(for pokemon: BRSPokemon) {
         var request = URLRequest(url: fetchPokemonDetails.appendingPathComponent(pokemon.name.lowercased()))
         request.httpMethod = "GET"
         print(request)

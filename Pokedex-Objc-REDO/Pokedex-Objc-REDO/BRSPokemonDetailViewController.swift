@@ -10,28 +10,32 @@ import UIKit
 class BRSPokemonDetailViewController: UIViewController {
     
     
+    //MARK: - Properties
+    @objc var pokemon: BRSPokemon?
+    
     //MARK: - IBOUTLETS
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var imageView: UIImageView!
-    @IBOutlet var idLabel: UIView!
+    @IBOutlet weak var idLabel: UILabel!
     @IBOutlet weak var abilityLabel: UILabel!
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        updateViews()
+        if let pokemon = pokemon {
+            BRSPokemonController.shared.getPokemonDetails(for: pokemon)
+        }
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    private func updateViews() {
+        if let pokemon = pokemon {
+            nameLabel.text = pokemon.name
+            imageView.image = pokemon.sprite
+            idLabel.text = "ID: \(pokemon.identifier)"
+            let abilities = pokemon.abilities as? [String]
+            abilityLabel.text = "Abilities: \(String (describing: abilities!.joined(separator: ", ").capitalized))"
+        }
     }
-    */
+    
 
 }
