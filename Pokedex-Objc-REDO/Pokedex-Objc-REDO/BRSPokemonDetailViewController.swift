@@ -12,6 +12,9 @@ class BRSPokemonDetailViewController: UIViewController {
     
     //MARK: - Properties
     @objc var pokemon: BRSPokemon?
+       var spriteObserver: NSKeyValueObservation?
+       var idObserver: NSKeyValueObservation?
+       var abilitiesObserver: NSKeyValueObservation?
     
     //MARK: - IBOUTLETS
     @IBOutlet weak var nameLabel: UILabel!
@@ -22,6 +25,7 @@ class BRSPokemonDetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         updateViews()
+           addObserver()
         if let pokemon = pokemon {
             BRSPokemonController.shared.getPokemonDetails(for: pokemon)
         }
@@ -37,5 +41,16 @@ class BRSPokemonDetailViewController: UIViewController {
         }
     }
     
-
+       private func addObserver() {
+           let pokemonChangeHandler: ((Any, Any) -> Void) = { [weak self] _, _ in
+               guard let self = self else { return }
+               DispatchQueue.main.async {
+                   self.updateViews()
+               }
+           }
+   
+           spriteObserver = observe(\.pokemon?.sprite, changeHandler: pokemonChangeHandler)
+           idObserver = observe(\.pokemon?.identifier, changeHandler: pokemonChangeHandler)
+           abilitiesObserver = observe(\.pokemon?.abilities, changeHandler: pokemonChangeHandler)
+       }
 }
